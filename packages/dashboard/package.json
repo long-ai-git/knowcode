@@ -1,0 +1,25 @@
+{
+  "name": "@knowcode/dashboard",
+  "version": "1.0.0",
+  "description": "KnowCode Dashboard - 可视化知识图谱",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@knowcode/core": "workspace:*",
+    "vue": "^3.4.38",
+    "vue-router": "^4.5.2",
+    "echarts": "^5.5.0",
+    "element-plus": "^2.8.4"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@vitejs/plugin-vue": "^5.0.0",
+    "typescript": "^5.5.3",
+    "vite": "^5.4.0",
+    "vue-tsc": "^2.1.4"
+  }
+}

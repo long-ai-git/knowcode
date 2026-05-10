@@ -1,0 +1,26 @@
+{
+  "name": "knowcode",
+  "version": "1.0.0",
+  "description": "AI 编码项目知识管理工具 - BUG 知识库 + 架构决策记录 + 可视化知识图谱",
+  "type": "module",
+  "private": true,
+  "workspaces": [
+    "packages/core",
+    "packages/mcp-server",
+    "packages/cli",
+    "packages/dashboard"
+  ],
+  "scripts": {
+    "build": "pnpm --filter @knowcode/core build && pnpm --filter @knowcode/mcp-server build && pnpm --filter @knowcode/cli build",
+    "test": "pnpm --filter @knowcode/core test",
+    "lint": "biome check .",
+    "format": "biome format --write .",
+    "prepare": "simple-git-hooks"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.8.3",
+    "@types/node": "^22.0.0",
+    "simple-git-hooks": "^2.11.1",
+    "typescript": "^5.5.3"
+  }
+}

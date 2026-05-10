@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.env
+*.db
+*.db-journal
+~/.knowcode/
+.vite/
+.DS_Store
+*.log
+coverage/
