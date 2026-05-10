@@ -53,7 +53,7 @@ knowcode/
 
 ```bash
 # 克隆项目
-git clone <repository-url>
+git clone https://github.com/<your-username>/knowcode.git
 cd knowcode
 
 # 安装依赖

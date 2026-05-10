@@ -18,6 +18,10 @@
     "test:watch": "vitest"
   },
   "license": "MIT",
+  "files": [
+    "dist",
+    "README.md"
+  ],
   "publishConfig": {
     "access": "public"
   },
